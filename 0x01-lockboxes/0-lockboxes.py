@@ -11,7 +11,7 @@ def canUnlockAll(boxes):
         for j in range(len(boxes[i])):
             if boxes[i][j] not in stack:
                 stack.update({boxes[i][j]: i})
-        if i not in stack:
+        if i not in stack and i != 0:
             waitList += 1
     if waitList != 0:
         return False
