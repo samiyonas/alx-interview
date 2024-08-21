@@ -1,5 +1,5 @@
 # alx interview questions (stacks)
-# !/usr/bin/python3
+#!/usr/bin/python3
 
 
 def canUnlockAll(boxes):
