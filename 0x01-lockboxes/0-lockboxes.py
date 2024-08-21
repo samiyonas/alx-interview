@@ -1,4 +1,6 @@
+# alx interview questions (stacks)
 #!/usr/bin/python3
+
 
 def canUnlockAll(boxes):
     """ a function that determines if all boxes can be opened """
