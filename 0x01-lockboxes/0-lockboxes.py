@@ -17,5 +17,3 @@ def canUnlockAll(boxes):
         return False
     else:
         return True
-
-print(canUnlockAll([[4, 6], [2], [0, 4, 1], [3], [], [4, 1], [5, 6]]))
